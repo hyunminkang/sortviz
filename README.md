@@ -1,8 +1,13 @@
 # SortViz — Comparative Sorting Algorithm Visualizer
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-sortviz--virid.vercel.app-6366f1?style=for-the-badge&logo=vercel)](https://sortviz-virid.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald?style=for-the-badge)](LICENSE)
+
 A modern, interactive web application inspired by [Toptal Sorting Algorithms](https://www.toptal.com/developers/sorting-algorithms) that visually animates, compares, and benchmarks 8 comparison-based sorting algorithms in synchronized lockstep on identical datasets.
 
-![SortViz Preview](https://raw.githubusercontent.com/username/sortviz/main/docs/preview.png)
+🔗 **Live Deployment:** [https://sortviz-virid.vercel.app/](https://sortviz-virid.vercel.app/)
+
+![SortViz Preview](docs/preview.png)
 
 ---
 
