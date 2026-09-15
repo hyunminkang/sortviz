@@ -8,15 +8,15 @@ This document provides a full disclosure and reproducible record of how **SortVi
 
 The development was initiated with the following prompt from the user:
 
-```text
-Before writing any code, interview me about this task. Ask one question at a time, until you can write a complete specification — what exactly is being computed, how every edge case and invalid input is handled, what conventions apply, and the checks that would prove the result right. Do not assume a default when my answer would change the result — ask. Then write SPEC.md, show me, and STOP for my approval before any code.
-I want to make a web application https://www.toptal.com/developers/sorting-algorithms that can be publicly deployed on vercel. Help me figure out the architecture of the webapp so that I can utilize AI agents to build the webapp. Write the design document in the docs/ directory. The features I want include the following:
-(1) Like the HTML page at ttps://www.toptal.com/developers/sorting-algorithms , I want to visually animate different sorting algorithms and compare them.
-(2) I want to be able to add/remove specific sorting algorithms to compare
-(3) I want to be able to customize the number of items to be sorted (could be 2^k if needed), and determine whether the items are randomly arranged, reversed, or almost sorted.
-(4) I want to be able to see which part of the arrays are sorted clearly. Showing the current cursor of element is often not enough to clearly see how the sorting algorithm works. For divide-and-conquer style algorithms, it will be good to know whether the partition is made and which part are "sorted" partially within the range (maybe in different colors).
-(5) Please include all sorting algorithms included at https://www.toptal.com/developers/sorting-algorithms, and include any additional comparison-based sorting algorithms that are well known.
-```
+> Before writing any code, interview me about this task. Ask one question at a time, until you can write a complete specification — what exactly is being computed, how every edge case and invalid input is handled, what conventions apply, and the checks that would prove the result right. Do not assume a default when my answer would change the result — ask. Then write SPEC.md, show me, and STOP for my approval before any code.
+>
+> I want to make a web application [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms) that can be publicly deployed on vercel. Help me figure out the architecture of the webapp so that I can utilize AI agents to build the webapp. Write the design document in the `docs/` directory. The features I want include the following:
+>
+> 1. Like the HTML page at [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms), I want to visually animate different sorting algorithms and compare them.
+> 2. I want to be able to add/remove specific sorting algorithms to compare.
+> 3. I want to be able to customize the number of items to be sorted (could be $2^k$ if needed), and determine whether the items are randomly arranged, reversed, or almost sorted.
+> 4. I want to be able to see which part of the arrays are sorted clearly. Showing the current cursor of element is often not enough to clearly see how the sorting algorithm works. For divide-and-conquer style algorithms, it will be good to know whether the partition is made and which part are "sorted" partially within the range (maybe in different colors).
+> 5. Please include all sorting algorithms included at [https://www.toptal.com/developers/sorting-algorithms](https://www.toptal.com/developers/sorting-algorithms), and include any additional comparison-based sorting algorithms that are well known.
 
 ---
 
@@ -31,9 +31,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 3. Dual Mode (Both)
 >
 > **User Response:**
-> ```text
-> 2.
-> ```
+> > **2.** (Side-by-side on a single dataset)
 
 ---
 
@@ -44,9 +42,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 3. Array Bars + Explicit Range Legend & Status Callouts
 >
 > **User Response:**
-> ```text
-> 1
-> ```
+> > **1.** (Bar states + subarray range brackets / tinted zones)
 
 ---
 
@@ -56,9 +52,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 2. Distribution Presets: In addition to Random, Reversed, and Almost Sorted, should we include Few Unique, Already Sorted, or Custom manual array input?
 >
 > **User Response:**
-> ```text
-> 1 -B, 2-Frew and almost sorted are good. No custom manual array input
-> ```
+> > **1-B, 2-Few and almost sorted are good. No custom manual array input.**
 
 ---
 
@@ -68,9 +62,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 2. On initial load, should all algorithms be shown or a curated 4-core set enabled by default with toggles?
 >
 > **User Response:**
-> ```text
-> 1. none 2. 4 core algorithms
-> ```
+> > **1. None 2. 4 core algorithms.**
 
 ---
 
@@ -81,9 +73,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 3. Metrics: Real-time counters for Comparisons, Swaps/Writes, Elapsed Steps, and Status chip?
 >
 > **User Response:**
-> ```text
-> 1. step-sunced, 2. standard controls. 3, yes to all
-> ```
+> > **1. step-synced, 2. standard controls, 3. yes to all.**
 
 ---
 
@@ -94,9 +84,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > - Automated testing: Vitest test suite proving 100% correctness headlessly
 >
 > **User Response:**
-> ```text
-> the recommended version sounds good to me
-> ```
+> > **The recommended version sounds good to me.**
 
 ---
 
@@ -108,9 +96,7 @@ Following the prompt's instructions, Antigravity conducted an interview asking o
 > 4. Presets: Almost Sorted (~5-10% swaps), Few Unique (4 discrete value levels)?
 >
 > **User Response:**
-> ```text
-> 1. yes, 2. there should be stop button but user cannot change while it is running. 3. yes n=32 or 64 sounds good. 4 - sounds good
-> ```
+> > **1. yes, 2. there should be stop button but user cannot change while it is running. 3. yes n=32 or 64 sounds good. 4. sounds good.**
 
 ---
 
@@ -122,9 +108,7 @@ Following the interview, Antigravity drafted:
 
 The user reviewed and approved:
 > **User Response:**
-> ```text
-> I approve
-> ```
+> > **I approve.**
 
 ---
 
@@ -158,5 +142,5 @@ During interactive review of the deployed application, the user provided additio
 ---
 
 ## 5. Public Deployment
-- **Repository:** `https://github.com/hyunminkang/sortviz`
-- **Live Vercel Application:** `https://sortviz-virid.vercel.app/`
+- **Repository:** [https://github.com/hyunminkang/sortviz](https://github.com/hyunminkang/sortviz)
+- **Live Vercel Application:** [https://sortviz-virid.vercel.app/](https://sortviz-virid.vercel.app/)
