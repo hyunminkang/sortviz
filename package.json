@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Comparative Sorting Algorithm Visualizer with synchronized lockstep animation and partition tracking",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
