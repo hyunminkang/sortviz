@@ -111,5 +111,15 @@ npx vercel --prod
 
 ---
 
+## 🤖 Built with Antigravity AI
+
+This application was designed, specified, and implemented collaboratively with **Antigravity** (Google DeepMind's Advanced Agentic Coding assistant).
+
+- **Full Prompt & Interview Transcript**: See [docs/interview_transcript.md](docs/interview_transcript.md) for the exact initial prompt, step-by-step interview Q&A, and iteration logs for reproducibility.
+- **Product Specification**: [SPEC.md](SPEC.md)
+- **Architecture & AI Agent Design**: [docs/architecture.md](docs/architecture.md)
+
+---
+
 ## 📄 License
-MIT License.
+MIT License. (c) 2026 Hyun Min Kang
